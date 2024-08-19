@@ -1,0 +1,470 @@
+/*
+object-assign
+(c) Sindre Sorhus
+@license MIT
+*/
+
+/*!
+	 *  Appenders.ts
+	 *  AUF
+	 *
+	 *  Created by Johan Blumenberg on 2016-12-29
+	 *  Copyright 2016 Microsoft. All rights reserved.
+	 *
+	 */
+
+/*!
+	 *  AufLog.ts
+	 *  AUF
+	 *
+	 *  Created by Johan Blumenberg on 2016-12-29
+	 *  Copyright 2016 Microsoft. All rights reserved.
+	 *
+	 */
+
+/*!
+	 *  LogFactory.ts
+	 *  AUF
+	 *
+	 *  Created by Johan Blumenberg on 2016-12-29
+	 *  Copyright 2016 Microsoft. All rights reserved.
+	 *
+	 */
+
+/*!
+	 *  RootToolsManager.ts
+	 *  AUF
+	 *
+	 *  Created by Johan Blumenberg on 2016-12-29
+	 *  Copyright 2016 Microsoft. All rights reserved.
+	 *
+	 */
+
+/*!
+	 *  index.ts
+	 *  AUF
+	 *
+	 *  Created by Johan Blumenberg on 2016-12-29
+	 *  Copyright 2016 Microsoft. All rights reserved.
+	 *
+	 */
+
+/*!
+	 *  pii.ts
+	 *  AUF
+	 *
+	 *  Created by Johan Blumenberg on 2017-01-16
+	 *  Copyright 2017 Microsoft. All rights reserved.
+	 *
+	 */
+
+/*!
+	 * Microsoft Dynamic Proto Utility, 1.1.9
+	 * Copyright (c) Microsoft and contributors. All rights reserved.
+	 */
+
+/*!
+        * @overview es6-promise - a tiny implementation of Promises/A+.
+        * @copyright Copyright (c) 2014 Yehuda Katz, Tom Dale, Stefan Penner and contributors (Conversion to ES6 API by Jake Archibald)
+        * @license   Licensed under MIT license
+        *            See https://raw.githubusercontent.com/stefanpenner/es6-promise/master/LICENSE
+        * @version   4.0.5
+        */
+
+/*!
+ * Copyright (c) Microsoft Corporation. All rights reserved.
+ * Licensed under the MIT License.
+ */
+
+/*! *****************************************************************************
+	Copyright (C) Microsoft. All rights reserved.
+	Licensed under the Apache License, Version 2.0 (the "License"); you may not use
+	this file except in compliance with the License. You may obtain a copy of the
+	License at http://www.apache.org/licenses/LICENSE-2.0
+
+	THIS CODE IS PROVIDED ON AN *AS IS* BASIS, WITHOUT WARRANTIES OR CONDITIONS OF ANY
+	KIND, EITHER EXPRESS OR IMPLIED, INCLUDING WITHOUT LIMITATION ANY IMPLIED
+	WARRANTIES OR CONDITIONS OF TITLE, FITNESS FOR A PARTICULAR PURPOSE,
+	MERCHANTABLITY OR NON-INFRINGEMENT.
+
+	See the Apache Version 2.0 License for specific language governing permissions
+	and limitations under the License.
+	***************************************************************************** */
+
+/*! ../decorators/defaultComponentDecorator */
+
+/*! ../decorators/defaultHrefDecorator */
+
+/*! ../decorators/defaultMatchDecorator */
+
+/*! ../decorators/defaultTextDecorator */
+
+/*! ../lib/possibleStandardNamesOptimized */
+
+/*! ./attributes-to-props */
+
+/*! ./cjs/react-dom.production.min.js */
+
+/*! ./cjs/react-is.production.min.js */
+
+/*! ./cjs/react-jsx-runtime.production.min.js */
+
+/*! ./cjs/scheduler.production.min.js */
+
+/*! ./components/Linkify */
+
+/*! ./constants */
+
+/*! ./dom-to-react */
+
+/*! ./domparser */
+
+/*! ./identifierModels */
+
+/*! ./lib/re */
+
+/*! ./node.js */
+
+/*! ./utilities */
+
+/*! @azure/abort-controller */
+
+/*! @azure/communication-common */
+
+/*! @azure/core-http */
+
+/*! @azure/logger */
+
+/*! @license DOMPurify 3.1.5 | (c) Cure53 and other contributors | Released under the Apache license 2.0 and Mozilla Public License 2.0 | github.com/cure53/DOMPurify/blob/3.1.5/LICENSE */
+
+/*! Bundled license information:
+
+	@microsoft/dynamicproto-js/lib/dist/esm/dynamicproto-js.js:
+	  (*!
+	   * Microsoft Dynamic Proto Utility, 1.1.8
+	   * Copyright (c) Microsoft and contributors. All rights reserved.
+	   *)
+	*/
+
+/*! domelementtype */
+
+/*! domhandler */
+
+/*! html-dom-parser */
+
+/*! inline-style-parser */
+
+/*! linkify-it */
+
+/*! object-assign */
+
+/*! react */
+
+/*! react-property */
+
+/*! scheduler */
+
+/*! style-to-js */
+
+/*! style-to-object */
+
+/*! tlds */
+
+/*! toggle-selection */
+
+/*! uc.micro/categories/Cc/regex */
+
+/*! uc.micro/categories/P/regex */
+
+/*! uc.micro/categories/Z/regex */
+
+/*! uc.micro/properties/Any/regex */
+
+/*!************************!*\
+  !*** external "React" ***!
+  \************************/
+
+/*!**************************************!*\
+  !*** ./node_modules/tlds/index.json ***!
+  \**************************************/
+
+/*!***************************************!*\
+  !*** ./IBAPCF/index.ts + 886 modules ***!
+  \***************************************/
+
+/*!***************************************!*\
+  !*** ./node_modules/events/events.js ***!
+  \***************************************/
+
+/*!*****************************************!*\
+  !*** ./node_modules/react-dom/index.js ***!
+  \*****************************************/
+
+/*!*****************************************!*\
+  !*** ./node_modules/scheduler/index.js ***!
+  \*****************************************/
+
+/*!******************************************!*\
+  !*** ./node_modules/linkify-it/index.js ***!
+  \******************************************/
+
+/*!******************************************!*\
+  !*** ./node_modules/tslib/tslib.es6.mjs ***!
+  \******************************************/
+
+/*!*******************************************!*\
+  !*** ./node_modules/linkify-it/lib/re.js ***!
+  \*******************************************/
+
+/*!*******************************************!*\
+  !*** ./node_modules/react/jsx-runtime.js ***!
+  \*******************************************/
+
+/*!*********************************************!*\
+  !*** ./node_modules/domhandler/lib/node.js ***!
+  \*********************************************/
+
+/*!*********************************************!*\
+  !*** ./node_modules/object-assign/index.js ***!
+  \*********************************************/
+
+/*!**********************************************!*\
+  !*** ./node_modules/domhandler/lib/index.js ***!
+  \**********************************************/
+
+/*!***********************************************!*\
+  !*** ./node_modules/dompurify/dist/purify.js ***!
+  \***********************************************/
+
+/*!***********************************************!*\
+  !*** ./node_modules/style-to-js/cjs/index.js ***!
+  \***********************************************/
+
+/*!************************************************!*\
+  !*** ./node_modules/toggle-selection/index.js ***!
+  \************************************************/
+
+/*!*************************************************!*\
+  !*** ./node_modules/copy-to-clipboard/index.js ***!
+  \*************************************************/
+
+/*!**************************************************!*\
+  !*** ./node_modules/domelementtype/lib/index.js ***!
+  \**************************************************/
+
+/*!**************************************************!*\
+  !*** ./node_modules/react-linkify/dist/index.js ***!
+  \**************************************************/
+
+/*!**************************************************!*\
+  !*** ./node_modules/react-property/lib/index.js ***!
+  \**************************************************/
+
+/*!***************************************************!*\
+  !*** ./node_modules/inline-style-parser/index.js ***!
+  \***************************************************/
+
+/*!***************************************************!*\
+  !*** ./node_modules/style-to-js/cjs/utilities.js ***!
+  \***************************************************/
+
+/*!***************************************************!*\
+  !*** ./node_modules/style-to-object/cjs/index.js ***!
+  \***************************************************/
+
+/*!*****************************************************!*\
+  !*** ./node_modules/uc.micro/categories/P/regex.js ***!
+  \*****************************************************/
+
+/*!*****************************************************!*\
+  !*** ./node_modules/uc.micro/categories/Z/regex.js ***!
+  \*****************************************************/
+
+/*!******************************************************!*\
+  !*** ./node_modules/uc.micro/categories/Cc/regex.js ***!
+  \******************************************************/
+
+/*!*******************************************************!*\
+  !*** ./node_modules/uc.micro/properties/Any/regex.js ***!
+  \*******************************************************/
+
+/*!**************************************************************!*\
+  !*** ./node_modules/html-dom-parser/lib/client/constants.js ***!
+  \**************************************************************/
+
+/*!**************************************************************!*\
+  !*** ./node_modules/html-dom-parser/lib/client/domparser.js ***!
+  \**************************************************************/
+
+/*!**************************************************************!*\
+  !*** ./node_modules/html-dom-parser/lib/client/utilities.js ***!
+  \**************************************************************/
+
+/*!***************************************************************!*\
+  !*** ./node_modules/react-linkify/dist/components/Linkify.js ***!
+  \***************************************************************/
+
+/*!****************************************************************!*\
+  !*** ./node_modules/html-dom-parser/lib/client/html-to-dom.js ***!
+  \****************************************************************/
+
+/*!****************************************************************!*\
+  !*** ./node_modules/react-dom/cjs/react-dom.production.min.js ***!
+  \****************************************************************/
+
+/*!****************************************************************!*\
+  !*** ./node_modules/scheduler/cjs/scheduler.production.min.js ***!
+  \****************************************************************/
+
+/*!*******************************************************************!*\
+  !*** ./node_modules/@azure/communication-signaling/dist/index.js ***!
+  \*******************************************************************/
+
+/*!********************************************************************!*\
+  !*** ./node_modules/@azure/core-rest-pipeline/dist-esm/src/log.js ***!
+  \********************************************************************/
+
+/*!********************************************************************!*\
+  !*** ./node_modules/react/cjs/react-jsx-runtime.production.min.js ***!
+  \********************************************************************/
+
+/*!**********************************************************************!*\
+  !*** ./node_modules/@azure/communication-calling/dist/sdk.bundle.js ***!
+  \**********************************************************************/
+
+/*!**********************************************************************!*\
+  !*** ./node_modules/@azure/core-util/dist-esm/src/isNode.browser.js ***!
+  \**********************************************************************/
+
+/*!**********************************************************************!*\
+  !*** ./node_modules/@azure/logger/dist/browser/index.js + 2 modules ***!
+  \**********************************************************************/
+
+/*!***********************************************************************!*\
+  !*** ./node_modules/@azure/core-auth/dist/browser/tokenCredential.js ***!
+  \***********************************************************************/
+
+/*!**************************************************************************!*\
+  !*** ./node_modules/@azure/core-http/dist-esm/src/index.js + 82 modules ***!
+  \**************************************************************************/
+
+/*!***************************************************************************!*\
+  !*** ./node_modules/react-property/lib/possibleStandardNamesOptimized.js ***!
+  \***************************************************************************/
+
+/*!****************************************************************************!*\
+  !*** ./node_modules/react-linkify/dist/decorators/defaultHrefDecorator.js ***!
+  \****************************************************************************/
+
+/*!****************************************************************************!*\
+  !*** ./node_modules/react-linkify/dist/decorators/defaultTextDecorator.js ***!
+  \****************************************************************************/
+
+/*!*****************************************************************************!*\
+  !*** ./node_modules/@azure/core-rest-pipeline/dist-esm/src/util/helpers.js ***!
+  \*****************************************************************************/
+
+/*!*****************************************************************************!*\
+  !*** ./node_modules/react-linkify/dist/decorators/defaultMatchDecorator.js ***!
+  \*****************************************************************************/
+
+/*!*********************************************************************************!*\
+  !*** ./node_modules/@azure/communication-react/node_modules/scheduler/index.js ***!
+  \*********************************************************************************/
+
+/*!*********************************************************************************!*\
+  !*** ./node_modules/@fluentui/react-jsx-runtime/node_modules/react-is/index.js ***!
+  \*********************************************************************************/
+
+/*!*********************************************************************************!*\
+  !*** ./node_modules/react-linkify/dist/decorators/defaultComponentDecorator.js ***!
+  \*********************************************************************************/
+
+/*!***********************************************************************************!*\
+  !*** ./node_modules/@azure/communication-common/dist-esm/src/identifierModels.js ***!
+  \***********************************************************************************/
+
+/*!************************************************************************************!*\
+  !*** ./node_modules/@azure/communication-common/dist-esm/src/index.js + 8 modules ***!
+  \************************************************************************************/
+
+/*!********************************************************************************************!*\
+  !*** ./node_modules/@azure/communication-common/dist-esm/src/identifierModelSerializer.js ***!
+  \********************************************************************************************/
+
+/*!*********************************************************************************************!*\
+  !*** ./node_modules/@azure/communication-react/node_modules/html-react-parser/lib/index.js ***!
+  \*********************************************************************************************/
+
+/*!*************************************************************************************************!*\
+  !*** ./node_modules/@azure/communication-react/node_modules/html-react-parser/lib/utilities.js ***!
+  \*************************************************************************************************/
+
+/*!****************************************************************************************************!*\
+  !*** ./node_modules/@azure/communication-react/node_modules/html-react-parser/lib/dom-to-react.js ***!
+  \****************************************************************************************************/
+
+/*!*****************************************************************************************************!*\
+  !*** ./node_modules/@azure/communication-react/dist/dist-esm/acs-ui-common/src/telemetryVersion.js ***!
+  \*****************************************************************************************************/
+
+/*!*******************************************************************************************************!*\
+  !*** ./node_modules/@fluentui/react-jsx-runtime/node_modules/react-is/cjs/react-is.production.min.js ***!
+  \*******************************************************************************************************/
+
+/*!********************************************************************************************************!*\
+  !*** ./node_modules/@azure/communication-react/node_modules/scheduler/cjs/scheduler.production.min.js ***!
+  \********************************************************************************************************/
+
+/*!***********************************************************************************************************!*\
+  !*** ./node_modules/@azure/communication-react/node_modules/html-react-parser/lib/attributes-to-props.js ***!
+  \***********************************************************************************************************/
+
+/*!****************************************************************************************************************!*\
+  !*** ./node_modules/@azure/communication-common/dist-esm/src/azureCommunicationTokenCredential.js + 4 modules ***!
+  \****************************************************************************************************************/
+
+/*!*********************************************************************************************************************!*\
+  !*** ./node_modules/@azure/core-rest-pipeline/dist-esm/src/policies/bearerTokenAuthenticationPolicy.js + 1 modules ***!
+  \*********************************************************************************************************************/
+
+/*!*********************************************************************************************************************!*\
+  !*** ./node_modules/@azure/core-rest-pipeline/node_modules/@azure/abort-controller/dist-esm/src/AbortController.js ***!
+  \*********************************************************************************************************************/
+
+/**
+ * @license React
+ * scheduler.production.min.js
+ *
+ * Copyright (c) Facebook, Inc. and its affiliates.
+ *
+ * This source code is licensed under the MIT license found in the
+ * LICENSE file in the root directory of this source tree.
+ */
+
+/** @license React v0.13.6
+ * scheduler.production.min.js
+ *
+ * Copyright (c) Facebook, Inc. and its affiliates.
+ *
+ * This source code is licensed under the MIT license found in the
+ * LICENSE file in the root directory of this source tree.
+ */
+
+/** @license React v16.14.0
+ * react-jsx-runtime.production.min.js
+ *
+ * Copyright (c) Facebook, Inc. and its affiliates.
+ *
+ * This source code is licensed under the MIT license found in the
+ * LICENSE file in the root directory of this source tree.
+ */
+
+/** @license React v16.8.6
+ * react-dom.production.min.js
+ *
+ * Copyright (c) Facebook, Inc. and its affiliates.
+ *
+ * This source code is licensed under the MIT license found in the
+ * LICENSE file in the root directory of this source tree.
+ */

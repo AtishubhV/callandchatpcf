@@ -1,0 +1,12 @@
+{
+  "version": 2,
+  "dgSpecHash": "6k5LyX2S0HSzVvepoLHidqa1sovAr6yyAP0oPovDkYccTu/WZ2EVd+kdS6u9/xZmlKLB211Hl0qHT1GA2NR1yg==",
+  "success": true,
+  "projectFilePath": "C:\\Atishubh\\iba-new\\iba-new\\ibapcf.pcfproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\atish\\.nuget\\packages\\microsoft.netframework.referenceassemblies\\1.0.0\\microsoft.netframework.referenceassemblies.1.0.0.nupkg.sha512",
+    "C:\\Users\\atish\\.nuget\\packages\\microsoft.netframework.referenceassemblies.net462\\1.0.0\\microsoft.netframework.referenceassemblies.net462.1.0.0.nupkg.sha512",
+    "C:\\Users\\atish\\.nuget\\packages\\microsoft.powerapps.msbuild.pcf\\1.33.3\\microsoft.powerapps.msbuild.pcf.1.33.3.nupkg.sha512"
+  ],
+  "logs": []
+}

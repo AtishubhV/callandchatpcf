@@ -36,12 +36,12 @@ import {
    * In a real application, your backend service would provide these to the client
    * application after the user goes through your authentication flow.
    */
-  const ENDPOINT_URL = 'https://iba-azurecommunicationservices.india.communication.azure.com';
+  const ENDPOINT_URL = '';
   const USER_ID = '8:acs:07871b7d-0dba-4fd9-a6e9-3a77b29610a9_00000021-0f14-9686-c126-63bd45607979';
-  const TOKEN = 'eyJhbGciOiJSUzI1NiIsImtpZCI6IjYwNUVCMzFEMzBBMjBEQkRBNTMxODU2MkM4QTM2RDFCMzIyMkE2MTkiLCJ4NXQiOiJZRjZ6SFRDaURiMmxNWVZpeUtOdEd6SWlwaGsiLCJ0eXAiOiJKV1QifQ.eyJza3lwZWlkIjoiYWNzOjA3ODcxYjdkLTBkYmEtNGZkOS1hNmU5LTNhNzdiMjk2MTBhOV8wMDAwMDAyMS0wZjE0LTk2ODYtYzEyNi02M2JkNDU2MDc5NzkiLCJzY3AiOjE3OTIsImNzaSI6IjE3MTk4NTI1MjgiLCJleHAiOjE3MTk5Mzg5MjgsInJnbiI6ImluIiwiYWNzU2NvcGUiOiJjaGF0LHZvaXAiLCJyZXNvdXJjZUlkIjoiMDc4NzFiN2QtMGRiYS00ZmQ5LWE2ZTktM2E3N2IyOTYxMGE5IiwicmVzb3VyY2VMb2NhdGlvbiI6ImluZGlhIiwiaWF0IjoxNzE5ODUyNTI4fQ.ehxqGf0mAGBebAe6qaALSsYOM5cWYAcTlpI-raanePuf_KXxlN3VmQnrzn1gqAlS-A2XM5koFXpPq7OkUYT_IqCrkXy7pLuREfLi6N8_0yWg-_Arse2IrlkqQqLKya2-WyH05wIg3VFI9lj9g3LrToj5UIu65F8ZEcqzBi5_lVqkwFg-eor9k6g4bnqoO75riXfogAbqPNuFi7m9pb-wIrFMMIJVnIXrc10GfLeods1xqxGtSq81km0j9y2QNX1JwuDsE0xDErtyo5WOjVb3pEDPJNUvvfibOjhn8GmnVobjiU7zE0BH9CdbhHltnNJFuGEUhJ0VBBlic8cQHCWR7w';
+  const TOKEN = 'eyJhbGciOiJSUzI1NiIsImtpZCI6IjYwNUVCMzFEMzBBMjBEQkRBNTMxODU2MkM4QTM2RDFCMzIyMkE2MTkiLCJ4NXQiOiJZRjZ6SFRD';
   const DISPLAY_NAME = 'Danny';
-  const THREAD_ID = '19:c10c5588b03446a4b19aae4959d7f9ae@thread.v2';
-  const TOPIC = 'Get together!'
+  const THREAD_ID = '19:c10c5588b0344f9ae@thread.v2';
+  const TOPIC = 'Get together!';
 
   /**
    * Display name for the local participant.
